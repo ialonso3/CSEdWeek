@@ -29,11 +29,11 @@ class App extends React.Component {
             <Navbar />
             <Dashboard game={this.state.game} social={this.state.social} story={this.state.story} productivity={this.state.productivity} studyskills={this.state.studyskills}/>
                 <div className="card-container">
-                    <Card type="game" title="flappy bird" makeChoice={this.makeChoice} />
-                    <Card type="story" title="Zelda" makeChoice={this.makeChoice} /> 
-                    <Card type="productivity" title="remainders" makeChoice={this.makeChoice} />
-                    <Card type="studyskills" title="note taking" makeChoice={this.makeChoice} />
-                    <Card type="social" title="facebook" makeChoice={this.makeChoice} />
+                    <Card type="game" title1="flappy bird" title2="tetris" makeChoice={this.makeChoice} />
+                    <Card type="story" title1="Humpty Dumpty" title2="Cat in the Hat" makeChoice={this.makeChoice} /> 
+                    <Card type="productivity" title1="Remainders" title2="calendar" makeChoice={this.makeChoice} />
+                    <Card type="studyskills" title1="note taking" title2="flash cards" makeChoice={this.makeChoice} />
+                    <Card type="social" title1="facebook" title2="Snapchat" makeChoice={this.makeChoice} />
                 </div>
         </div>
     );
